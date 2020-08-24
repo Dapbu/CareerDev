@@ -1,0 +1,73 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    /* height: 100%; */
+  }
+  
+.wrapper{ 
+    width: 350px;
+    padding: 50px;
+    margin: 0 auto;
+    
+    
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* resize: both; */
+    /* overflow: auto; */
+    /* height: 100%; */
+
+}
+
+.panel-wrapper{
+    width: 700px;
+}
+
+#formBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    
+    /* margin: 0 auto; */
+    /* display: block; */
+    /* background-color: black; */
+
+}
+
+body  {
+    background-color: #848798;
+    overflow-x: none;
+    /* height: 100%; */
+}
+
+body #interface {
+    background-color: #262732;
+}
+
+body #login {
+    background-color: #912761;
+    font: 14px sans-serif;
+    /* height: 100%; */
+
+}
+
+#authorDiv{
+    position: absolute;
+    bottom:0;
+    /* height:15px; */
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: grey;
+    overflow-x: none;
+}
+
+#authorDiv a{
+    color: beige;
+}
