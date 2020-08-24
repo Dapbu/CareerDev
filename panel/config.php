@@ -3,7 +3,7 @@
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'admin');
 define('DB_PASSWORD', '');
-define('DB_NAME', 'careerdev');
+define('DB_NAME', 'careerDev');
 
 ini_set('display_errors',0);
 

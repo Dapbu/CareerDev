@@ -14,8 +14,7 @@
                 $user = 'admin';
                 $server = 'localhost';
                 $password = '';
-                $database = 'careerdev';
-;
+                $database = 'careerDev';
 
                 // $headers = '';
 
