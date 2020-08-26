@@ -33,7 +33,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $sql = "SELECT username, password FROM users WHERE username = ?";
  
         if($stmt = mysqli_prepare($link, $sql)){
-            echo('test');
+//            echo('test');
             echo('<br>');
             // Bind variables to the prepared statement as parameters
             mysqli_stmt_bind_param($stmt, "s", $param_username);
@@ -43,7 +43,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
  
             // Attempt to execute the prepared statement
             if(mysqli_stmt_execute($stmt)){
-                echo('test2');
+  //              echo('test2');
                 // Store result
                 mysqli_stmt_store_result($stmt);
 
