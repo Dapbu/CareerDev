@@ -96,6 +96,7 @@ if(isset($_POST['update'])){
     <div class='container wrapper panel-wrapper' >
         
         <div id='formBlock'  >
+        <div id='tableWrapper'>
         <table id="tg-RiKTG" class="tg" style='width:400px;'>
             <thead>
                 <tr>
@@ -148,7 +149,7 @@ if(isset($_POST['update'])){
 
             </thead>
         </table>
-        
+        </div>
         <form method='POST' style="margin: 0 auto;padding:20px;">
         <a class='btn btn-primary' href="./logout.php">Log Out</a>
         <input type="submit" value="DELETE ALL DATA" name='delete' class='btn btn-primary' style='display:inline-block;'

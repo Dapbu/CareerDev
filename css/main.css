@@ -33,10 +33,20 @@ html {
     justify-content: center;
     align-items: center;
     padding: 40px;
-    
+    /* height: 75%;
+    overflow:hidden;
+    overflow-y: scroll; */
     /* margin: 0 auto; */
     /* display: block; */
     /* background-color: black; */
+
+}
+
+#tableWrapper{
+    
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 500px;
 
 }
 
